@@ -1,6 +1,8 @@
 #include <stdio.h>
 extern int cuda_add(int argc, char*argv[]);
+int cuda_matrix_mul(int argc, char* argv[]);
+
 int main(int argc, char* argv[]) 
 {
-    cuda_add(argc,  argv);
+    cuda_matrix_mul(argc,  argv);
 }
