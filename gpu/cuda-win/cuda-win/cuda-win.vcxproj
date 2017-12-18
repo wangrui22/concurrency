@@ -90,6 +90,7 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
   <ItemGroup>
     <CudaCompile Include="cuda_add.cu" />
     <CudaCompile Include="cuda_matrix_mul.cu" />
+    <CudaCompile Include="cuda_matrix_mul_s.cu" />
     <CudaCompile Include="main.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
